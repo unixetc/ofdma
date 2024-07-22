@@ -1,5 +1,5 @@
 ---
-title: "Hugo dead simple theme"
+title: "Hugo dead simple主题"
 date: "2020-04-01"
 tags:
   - hugo
@@ -10,15 +10,15 @@ bold: true
 
 Simple hugo theme to be dead easy on the reader.
 
-## Installation
+## 安装
 
-- Initialize go module
+- 初始化go模块
 
   ```bash
   hugo mod init <module_path>
   ```
 
-- Add theme to your `config.yml`
+- `config.yml`中添加主题
 
   ```yml
   module:
@@ -32,13 +32,13 @@ Simple hugo theme to be dead easy on the reader.
   hugo mod get -u
   ```
 
-## Configuration
+## 配置
 
-### Site parameters
+### 站点参数
 
-This site's config can be found [here](https://github.com/barklan/hugo-dead-simple-example/blob/main/config.yaml).
+参考[这里](https://github.com/barklan/hugo-dead-simple-example/blob/main/config.yaml)的完整配置参数
 
-### Section parameters
+### Section 参数
 
 ```yaml {linenos=inline}
 ---
@@ -48,7 +48,7 @@ nodate: false # display date next to post title
 ---
 ```
 
-### Page parameters
+### Page 参数
 
 ```yaml {linenos=inline}
 ---
@@ -68,7 +68,7 @@ notitle: true # hide title
 ---
 ```
 
-## Deployment
+## 部署
 
 - [Generate](https://favicon.io/favicon-generator/) and add favicons to `/static`
 - Deploy your site to Netlify with this `netlify.toml`
@@ -82,7 +82,7 @@ notitle: true # hide title
   environment = { HUGO_VERSION = "0.114.1" }
   ```
 
-## Post features
+## Post 特性
 
 {{< box info >}}
 **Hugo shortcodes**

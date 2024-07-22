@@ -1,4 +1,9 @@
 ---
+toc: true
+bold:true
+tags:
+  - OFDMA
+  - 正交频分多址
 ---
 # 正交频分多址(OFDMA)
 
