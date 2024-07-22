@@ -1,6 +1,6 @@
 ---
 toc: true
-bold:true
+bold: true
 tags:
   - OFDMA
   - 正交频分多址
