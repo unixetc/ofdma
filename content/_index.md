@@ -7,7 +7,12 @@ tags:
 ---
 # 正交频分多址(OFDMA)
 
-正交频分多址OFDMA（Orthogonal Frequency-Division Multiple Access）是Wi-Fi 6引入是的一项新技术，可有效提升频谱利用率从而提升WLAN的性能。
+正交频分多址（英语：Orthogonal Frequency Division Multiple Access，OFDMA）是现代无线通信系统中的一种多重接取技术，WiMax、LTE都采用OFDMA，OFDMA可有效提升频谱利用率从而提升系统的性能。
+
+OFDMA是[OFDM](/post/ofdm)技术的演进，用户可以选择信道条件较好的子通道（subchannel）进行数据传输，一组用户可以同时接入到某一信道。 OFDMA与CDMA不同处在于OFDMA使用大量的正交窄带子载波（subcarrier）来承载数据，与CDMA用单一载波承载单一数据相比，OFDMA更能对抗多径效应。
+OFDMA技术也可以被描述为一种结合频域和时域的多路访问，时域的资源分区的时频空间，插槽分配系由OFDM符号沿指数以及OFDM系统子载波指数（sub-carrier index）。
+
+OFDMA技术被认为非常适合宽带无线网络，优势包括可扩展性和MIMO的便利，并有能力利用通道的频率选择性。
 
 ## 正交频分多址是如何工作的？
 Wi-Fi 6和Wi-Fi 5最大的区别就是引入了多用户传输技术OFDMA，实现多用户共享信道资源，从而提升了频谱利用率。
