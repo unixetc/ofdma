@@ -1,6 +1,6 @@
 baseURL: "https://ofdma.cn/"
 languageCode: zh-cn
-title: "OFMDA - 正交频分多址"
+title: "正交频分多址(OFDMA)"
 theme: "d"
 enableGitInfo: true
 menu:
@@ -13,7 +13,7 @@ menu:
       weight: 2
 
 params:
-  description: "正交频分多址(OFDMA)是现代通信技术中使用的一种多址方式。"
+  description: "正交频分多址(Orthogonal Frequency Division Multiple Access，OFDMA)是无线通信系统中的一种多重接取技术，WiMax、LTE都采用OFDMA。"
 
 markup:
   highlight:
