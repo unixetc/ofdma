@@ -3,9 +3,6 @@ title: "正交频分复用(OFDM)"
 date: "2024-07-22"
 tags:
   - ofmd
-  - 正交频分复用
-  - 正交
-  - 频分复用
 slug: ofdm
 ---
 
